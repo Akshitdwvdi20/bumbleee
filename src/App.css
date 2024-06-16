@@ -1,0 +1,133 @@
+/* App.css */
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.name-input {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-input-field {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.room-controls {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.room-input {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.action-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+.start-button {
+  background-color: #28a745;
+}
+
+.stop-button {
+  background-color: #dc3545;
+}
+
+.video-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.screen-share-video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.chat-container {
+  margin-top: 20px;
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+}
+
+.chat-messages {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.chat-message {
+  margin-bottom: 8px;
+}
+
+.message-form {
+  margin-top: 10px;
+  display: flex;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  margin-top: 20px;
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
